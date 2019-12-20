@@ -32,10 +32,10 @@ namespace Topico1
             }
             set
             {
-                if (value < 0)
-                {
-                    throw new ArgumentOutOfRangeException("salario não pode ser negativo");
-                }
+                //if (value < 0)
+                //{
+                //    throw new ArgumentOutOfRangeException("salario não pode ser negativo");
+                //}
                 salario = value;
             }
         }
